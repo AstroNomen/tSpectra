@@ -1,0 +1,9 @@
+build/
+build-*/
+.vscode/
+.idea/
+*.user
+*.user.*
+compile_commands.json
+CMakeUserPresets.json
+.DS_Store

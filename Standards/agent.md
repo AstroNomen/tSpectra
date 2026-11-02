@@ -1,6 +1,13 @@
 # t.Spectra Multiplatform Suite: Agent Architecture Specification & Phased Execution Manual (v2.0)
 
 > **文档性质**：Agent 学习规约、架构准则与原子化执行手册。
+>
+> **软件定性与目标**:
+> 本项目基于开源项目 [spektrafilm](https://github.com/andreavolpato/spektrafilm ) 的物理光谱与暗房模拟管线，构建原生全平台高性能胶片模拟套件，命名为`t.Spectra`：
+>
+> - 桌面端 (Windows 10+ / macOS 15+)：专注于高质量单反/微单 RAW 文件（如 Nikon NEF）、jpeg/tiff的解析、全精度物理模拟渲染、非破坏性调色(套滤镜)与无损导出。
+> -  移动端 (iOS 18+ / Android 14+)：双轨制工作流，实现高帧率（60fps）取景器实时滤镜预览，以及全精度 RAW/照片的本地暗房冲洗修图。
+>
 > **适用对象**：
 >
 > - **Agent 1**：Windows 10 / Android 环境技术主管（负责 Vulkan、Qt6、Compose、NDK、Core 基线）。
